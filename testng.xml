@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Alta Page Test Suite" verbose="1" thread-count="1" parallel="tests">
+    <test name="RegistrationPage" parallel="tests">
+        <classes>
+            <class name="AltaRegistrationTest"/>
+        </classes>
+    </test>
+    <test name="SortingTest" parallel="tests">
+        <classes>
+            <class name="AltaSortingTest"/>
+        </classes>
+    </test>
+    <test name="CartTest" parallel="tests">
+        <classes>
+            <class name="AltaCartTest"/>
+        </classes>
+    </test>
+
+</suite>
